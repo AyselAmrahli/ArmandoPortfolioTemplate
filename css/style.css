@@ -1,0 +1,79 @@
+
+* {
+	box-sizing:border-box;
+}
+
+
+body {
+	background-image: url(../images/background.jpg); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	 	 
+}
+
+.header {
+	height: 70px;
+	
+	}
+#container {
+	width: 999px;
+	height: auto;
+	margin: 0 auto;
+
+}
+
+ #logoText {
+ 	
+ color: white;
+ font-size: 24px;
+ margin-left: 0;
+ }
+
+
+
+.nav > li > a:hover {
+	transition: all .5s ease-in-out;
+	background-color: #D7074C;
+	color:white;
+
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-color: red;
+}
+
+
+img {
+	transition: opacity 0.5s ease-in-out;
+}
+
+img:hover {
+	 opacity: 0.5;
+}
+.gClick {
+	opacity: 0.5;
+}
+.selector {
+	transition: all .4s ease-in-out;
+	 transform: scale(.9);
+
+}
+
+.footerList {
+	list-style-type: none;
+}
+
+.footerList li {
+	float: left;
+	margin:20px;
+	margin-top: 30px;
+	color: black;
+}
+
+.footerHeight {
+	height: 100px;
+}
+h4 {
+	margin-right: 18px;
+	margin-top: 30px;
+}
